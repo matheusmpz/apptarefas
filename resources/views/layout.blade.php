@@ -7,7 +7,17 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Sistema de Tarefas</title>
 </head>
-<body>
-    <h1 class="font-bold text-4xl">Slk não compensa</h1>
-</body>
+<body class="flex flex-col min-h-screen">
+    <header class="bg-neutral-800 py-6 px-12">
+        <nav class="space-x-2 text-neutral-100">
+            <h1 class="font-medium text-2xl">Sistema de Tarefas</h1>
+        </nav>
+    </header>
+    <main class="px-12 py-6">
+        @yield('conteudo')
+    </main>
+    <footer class="bg-neutral-800 text-neutral-100 py-4 flex justify-center mt-auto">
+        <p>Todos os direitos reservados. © <?= date('Y') ?></p>
+    </footer>
+</body> 
 </html>
