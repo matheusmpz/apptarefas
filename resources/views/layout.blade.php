@@ -19,5 +19,6 @@
     <footer class="bg-neutral-800 text-neutral-100 py-4 flex justify-center mt-auto">
         <p>Todos os direitos reservados. © <?= date('Y') ?></p>
     </footer>
+    <script src="/resources/js/script.js"></script>
 </body> 
 </html>
